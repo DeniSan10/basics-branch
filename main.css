@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background-color: black;
+}
+
+body {
+    color: white;
+    background: linear-gradient(227deg, #000000, #ff0707,#120994, #8711c4);
+    background-size: 240% 240%;
+    animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+nav li {
+    text-decoration: none;
+}
+
+aside {
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(227deg, #000000, #242121);
+    background-size: 240% 240%;
+    animation: gradient-animation 10s ease infinite;
+}
+
+main {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(227deg, #8711c4, #120994, #ff0707, #000000);
+    background-size: 240% 240%;
+    animation: gradient-animation 10s ease infinite;
+    padding: 1em;
+}
+
+nav {
+    background-color: #000000;
+}
+
+main h2 {
+    color: black;
+    padding: 1em;
+}
+
+main p {
+    padding: 1em;
+}
+
+.denis {
+    height: 300px;
+    width: auto;
+    border-radius: 250px 750px 250px 750px;
+    animation: wobble 15s ease-in-out alternate infinite;
+}
+
+@keyframes wobble {
+    50% {
+      border-radius: 750px 550px 350px 750px
+    }
+    100% {
+      border-radius: 750px 250px 750px 250px 
+    }
+}
+
+aside h2 {
+    padding-top: 2em;
+}
