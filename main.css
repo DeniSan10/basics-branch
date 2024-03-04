@@ -35,7 +35,7 @@ nav li {
 aside {
     text-align: center;
     width: 100%;
-    background: linear-gradient(227deg, #000000, #242121);
+    background: linear-gradient(102deg, #000000, #5c0101, rgb(0, 0, 0));
     background-size: 240% 240%;
     animation: gradient-animation 10s ease infinite;
 }
@@ -109,7 +109,12 @@ nav a:hover {
     animation: wobble 15s ease-in-out alternate infinite;
 }
 
+.media{
+    height: 30px;
+    width: auto;
+}
+
 .mini {
-    width: 20px;
-    height: auto;
+    height: 30px;
+    width: auto;
 }
