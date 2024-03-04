@@ -44,6 +44,10 @@ main {
     text-align: center;
 }
 
+.donate {
+    padding: 2em;
+}
+
 header {
     border-bottom: 4px solid #120994;
     text-align: center;
