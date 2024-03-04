@@ -83,7 +83,7 @@ main h3 {
 }
 
 main h2 {
-    font-size: 80px;
+    font-size: 30px;
 }
 
 aside h2 {
@@ -91,10 +91,29 @@ aside h2 {
 }
 
 aside p {
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
-nav a:hover {
-   color:  #ff0707;
+.denis {
+    height: 300px;
+    width: auto;
+    border-radius: 250px 750px 250px 750px;
+    animation: wobble 15s ease-in-out alternate infinite;
+}
+
+.languages {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-area: 
+    "flag flag"
+    "flag flag";
+}
+
+.imgflag {
+    height: 50px;
+    width: auto;
 }
