@@ -105,6 +105,30 @@ aside p {
     padding-right: 2em;
 }
 
+.contact-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "contactmain contacttext"
+    "pay pay";
+}
+
+.contact-container {
+    margin: auto;
+    padding-left: 10em;
+    grid-area: contactmain;
+}s
+
+.pay {
+    text-align: center;
+    grid-area: pay;
+}
+
+.contact-text {
+    grid-area: contacttext;
+}
+
 .denis {
     height: 300px;
     width: auto;
@@ -199,17 +223,13 @@ footer h4 {
     display: flex;
     justify-content: center;
     grid-area: form1;
-    border-color: rgb(255, 0, 0);
-    color: rgb(255, 0, 0);
-
+    padding-bottom: 2em;
 }
 
 .form2 {
     display: flex;
     justify-content: center;
     grid-area: form2;
-    border-color: blueviolet;
-    color: blueviolet;
 }
 
 form {
@@ -237,6 +257,6 @@ input[type="submit"] {
 
 input {
     margin: 0.4rem;
-    background-color: #120994;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
 }
-
