@@ -69,10 +69,10 @@ main p {
     height: 300px;
     width: auto;
     border-radius: 250px 750px 250px 750px;
-    animation: wobble 15s ease-in-out alternate infinite;
+    animation: squishy 15s ease-in-out alternate infinite;
 }
 
-@keyframes wobble {
+@keyframes squishy {
     50% {
       border-radius: 750px 550px 350px 750px
     }
@@ -103,7 +103,7 @@ nav a:hover {
     height: 300px;
     width: auto;
     border-radius: 250px 750px 250px 750px;
-    animation: wobble 0.4s ease-in-out alternate infinite;
+    animation: squishy 0.4s ease-in-out alternate infinite;
 }
 
 .denis2 {

@@ -94,6 +94,35 @@ main h2 {
     font-size: 30px;
 }
 
+.image-luna{
+    height: 200px;
+    width: 195px;
+}
+
+.gallery-dummy {
+    margin: 3em;
+    background: linear-gradient(227deg, #ff0707, rgb(56, 52, 52), black);
+    background-size: 240% 240%;
+    border-radius: 10%;
+    animation: gradient-animation 25s ease infinite;
+}
+
+.gallery-dummy img {
+    padding: 1em;
+}
+
+.gallery-dummy h2 {
+    padding: 30px;
+}
+
+.gallery-dummy h4 {
+    padding: 30px;
+}
+
+.gallery-dummy h3 {
+    padding: 30px;
+}
+
 aside h2 {
     font-size: 100px;
 }
@@ -141,15 +170,31 @@ main h3 {
 .languages {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    grid-area:
-        "flag flag"
-        "flag flag";
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "flag1 flag2"
+    "flag3 flag4";
 }
 
 .imgflag {
     height: 50px;
     width: auto;
+}
+
+.flag1 {
+    grid-area: flag1;
+}
+
+.flag2 {
+    grid-area: flag2;
+}
+
+.flag3 {
+    grid-area: flag3;
+}
+
+.flag4 {
+    grid-area: flag4;
 }
 
 aside h3 {
