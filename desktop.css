@@ -119,6 +119,10 @@ aside p {
     grid-area: contactmain;
 }
 
+main h3 {
+    padding: 1em;
+}
+
 .pay {
     padding: 3em;
 }
