@@ -330,6 +330,10 @@ footer h4 {
 
 }
 
+.donate {
+    font-size: 40px;
+}
+
 .form1 {
     display: flex;
     justify-content: center;
