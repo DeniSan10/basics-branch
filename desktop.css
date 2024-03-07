@@ -110,19 +110,17 @@ aside p {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-    "contactmain contacttext"
-    "pay pay";
+    "contactmain contacttext";
 }
 
 .contact-container {
     margin: auto;
     padding-left: 10em;
     grid-area: contactmain;
-}s
+}
 
 .pay {
-    text-align: center;
-    grid-area: pay;
+    padding: 3em;
 }
 
 .contact-text {
