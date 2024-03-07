@@ -99,12 +99,38 @@ main h2 {
     width: 195px;
 }
 
+.image-digital{
+    height: 200px;
+    width: auto;
+}
+
 .gallery-dummy {
     margin: 3em;
-    background: linear-gradient(227deg, #ff0707, rgb(56, 52, 52), black);
+    background: linear-gradient(227deg, #ff0000, rgb(56, 52, 52), black);
     background-size: 240% 240%;
     border-radius: 10%;
-    animation: gradient-animation 25s ease infinite;
+    animation: gradient-animation 10s ease infinite;
+}
+
+.image-art {
+    height: 300px;
+    width: auto;
+}
+
+.gallery-container .gallery-dummy:nth-child(2) {
+    margin: 3em;
+    background: linear-gradient(227deg, #2903ff, rgb(56, 52, 52), black);
+    background-size: 240% 240%;
+    border-radius: 10%;
+    animation: gradient-animation 10s ease infinite;
+}
+
+.gallery-container .gallery-dummy:nth-child(3) {
+    margin: 3em;
+    background: linear-gradient(227deg, #2dff03, rgb(56, 52, 52), black);
+    background-size: 240% 240%;
+    border-radius: 10%;
+    animation: gradient-animation 10s ease infinite;
 }
 
 .gallery-dummy img {
@@ -165,6 +191,43 @@ main h3 {
     width: auto;
     border-radius: 250px 750px 250px 750px;
     animation: wobble 15s ease-in-out alternate infinite;
+}
+
+.project-dummy .place1:nth-child(1) {
+    grid-area: dummy1;
+}
+
+.project-dummy .place1:nth-child(2) {
+    grid-area: dummy2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.project-dummy .place1:nth-child(3) {
+    grid-area: dummy3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.project-dummy .place1:nth-child(4) {
+    grid-area: dummy4;
+}
+
+.project-dummy {
+    margin: 3em;
+    background: linear-gradient(227deg, #b40aca, rgb(56, 52, 52), black);
+    background-size: 240% 240%;
+    border-radius: 10%;
+    animation: gradient-animation 10s ease infinite;
+    padding: 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "dummy1 dummy2"
+    "dummy3 dummy4";
 }
 
 .languages {
@@ -238,6 +301,7 @@ footer h4 {
 .footer-name {
     padding-top: 1em;
     grid-area: name;
+    display: block;
 }
 
 .footer-nav {
