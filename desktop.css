@@ -12,6 +12,32 @@ body {
         "footer footer footer footer";
 }
 
+.report-intro{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "miniport1 miniport2";
+}
+
+.report-intro-dummy1 {
+    grid-area: miniport1;
+}
+
+.report-intro-dummy1 img {
+    height: 200px;
+    width: auto;
+}
+
+.report-intro-dummy2 img {
+    height: 200px;
+    width: auto;
+}
+
+.report-intro-dummy2 {
+    grid-area: miniport2;
+}
+
 .logo a {
     font-size: 35px;
     font-weight: 600;
