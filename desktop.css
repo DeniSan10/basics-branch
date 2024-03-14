@@ -12,6 +12,10 @@ body {
         "footer footer footer footer";
 }
 
+nav {
+    background-color: #000000;
+}
+
 .report-intro{
     display: grid;
     grid-template-columns: 50% 50%;
