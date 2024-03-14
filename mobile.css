@@ -17,9 +17,43 @@ nav {
     left: 50%;
     width: 50%;
     height: 100vh;
+}
+
+nav ul {
     list-style: none;
+}
+
+.displayNav {
+    height: 0.8em;
+    width: 1.25em;
+    display: block;
+    border-top: 0.2em solid white;
+    border-bottom: 0.2em solid white;
+    border-radius: 0.2em;
     }
     
+    .displayNav::before {
+        margin-left: -0.6em;
+        content: '';
+        position: absolute;
+        width: 1.25em;
+        margin-top: 0.3em;
+        border-top: 0.2em solid #fff;
+        }
+        
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav ul {
+    align-items: center;
+}
 
 header {
     grid-area: header;
@@ -52,17 +86,33 @@ aside p {
 
 footer {
     grid-area: footer;
+}
+
+.footer-container {
+    padding: 5px;
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "social"
-    "buttonz"
-    "endz";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "social social social"
+        "buttonz buttonz buttonz"
+        "endz endz endz";
+}
+
+.footer-social-media {
+    padding: 1em;
+    grid-area: social;
 }
 
 .footer-nav {
     text-align: center;
+    grid-area: buttonz;
+}
+
+.footer-name {
+    text-align: center;
+    margin-top: 3em;
+    grid-area: endz;
 }
 
 .footer-nav a {
@@ -111,5 +161,3 @@ footer h4 {
 .flag4 {
     padding: 2em;
 }
-
- 
