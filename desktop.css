@@ -38,6 +38,11 @@ body {
     grid-area: miniport2;
 }
 
+.report-list-dummy p {
+    padding: 2em;
+}
+
+
 .logo a {
     font-size: 35px;
     font-weight: 600;
@@ -115,7 +120,7 @@ main h3 {
     font-size: 30px;
 }
 
-.report-list img {
+.tiny-logo {
     height: 100px;
     width: auto;
 }
@@ -140,6 +145,7 @@ main h2 {
 }
 
 .gallery-dummy {
+    border: solid;
     margin: 3em;
     background: linear-gradient(227deg, #ff0000, rgb(56, 52, 52), black);
     background-size: 240% 240%;
@@ -246,11 +252,17 @@ main h3 {
     margin-right: auto
 }
 
+.nice-snippet {
+    height: 200px;
+    width: auto;
+}
+
 .project-dummy .place1:nth-child(4) {
     grid-area: dummy4;
 }
 
 .project-dummy {
+    border: solid;
     margin: 3em;
     background: linear-gradient(227deg, #b40aca, rgb(56, 52, 52), black);
     background-size: 240% 240%;

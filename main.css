@@ -7,9 +7,15 @@ footer {
     background-color: black;
 }
 
+.report-list-dummy {
+    border: white 4px solid;
+    border-radius: 70px;
+    margin: 3em;
+}
+
 body {
     color: white;
-    background: linear-gradient(227deg, #000000, #ff0707,#120994, #8711c4);
+    background: linear-gradient(227deg, #000000, #ff0707, #120994, #8711c4);
     background-size: 240% 240%;
     animation: gradient-animation 10s ease infinite;
 }
@@ -51,7 +57,7 @@ main {
 header {
     border-bottom: 4px solid #120994;
     text-align: center;
-    background: linear-gradient(227deg, #ff0707, #000000, #120994,  #8711c4);
+    background: linear-gradient(227deg, #ff0707, #000000, #120994, #8711c4);
     background-size: 240% 240%;
     animation: gradient-animation 10s ease infinite;
     padding: 1em;
@@ -74,10 +80,11 @@ main p {
 
 @keyframes squishy {
     50% {
-      border-radius: 750px 550px 350px 750px
+        border-radius: 750px 550px 350px 750px
     }
+
     100% {
-      border-radius: 750px 250px 750px 250px 
+        border-radius: 750px 250px 750px 250px
     }
 }
 
@@ -86,7 +93,7 @@ aside h2 {
 }
 
 .main-text i {
-    color:#120994;
+    color: #120994;
     font-style: normal;
 }
 
@@ -96,10 +103,10 @@ main h2 {
 }
 
 nav a:hover {
-    color:  #ff0707;
- }
+    color: #ff0707;
+}
 
- .denis:hover {
+.denis:hover {
     height: 300px;
     width: auto;
     border-radius: 250px 750px 250px 750px;
@@ -113,7 +120,7 @@ nav a:hover {
     animation: wobble 15s ease-in-out alternate infinite;
 }
 
-.media{
+.media {
     height: 30px;
     width: auto;
 }
