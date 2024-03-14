@@ -17,7 +17,9 @@ nav {
     left: 50%;
     width: 50%;
     height: 100vh;
-    background-color: rgb(32, 28, 28)
+    background-color: rgba(32, 28, 28, 0.692);
+    backdrop-filter: blur(10px);
+    border: solid white;
 }
 
 nav ul {

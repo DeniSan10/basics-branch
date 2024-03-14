@@ -71,13 +71,6 @@ main p {
     padding: 1em;
 }
 
-.denis {
-    height: 300px;
-    width: auto;
-    border-radius: 250px 750px 250px 750px;
-    animation: squishy 15s ease-in-out alternate infinite;
-}
-
 @keyframes squishy {
     50% {
         border-radius: 750px 550px 350px 750px
@@ -106,18 +99,25 @@ nav a:hover {
     color: #ff0707;
 }
 
-.denis:hover {
+.denis-1{
     height: 300px;
     width: auto;
     border-radius: 250px 750px 250px 750px;
-    animation: squishy 0.4s ease-in-out alternate infinite;
+    animation: squishy 15s ease-in-out alternate infinite;
 }
 
-.denis2 {
+.denis-2{
     height: 300px;
     width: auto;
     border-radius: 250px 750px 250px 750px;
-    animation: wobble 15s ease-in-out alternate infinite;
+    animation: squishy 15s ease-in-out alternate infinite;
+}
+
+.denis-1:hover{
+    height: 300px;
+    width: auto;
+    border-radius: 250px 750px 250px 750px;
+    animation: squishy 3s ease-in-out alternate infinite;
 }
 
 .media {

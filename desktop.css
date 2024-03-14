@@ -231,13 +231,6 @@ main h3 {
     grid-area: contacttext;
 }
 
-.denis {
-    height: 300px;
-    width: auto;
-    border-radius: 250px 750px 250px 750px;
-    animation: wobble 15s ease-in-out alternate infinite;
-}
-
 .project-dummy .place1:nth-child(1) {
     grid-area: dummy1;
 }
