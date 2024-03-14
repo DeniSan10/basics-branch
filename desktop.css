@@ -111,6 +111,15 @@ main h3 {
     grid-area: img;
 }
 
+.report-aside-container h2 {
+    font-size: 30px;
+}
+
+.report-list img {
+    height: 100px;
+    width: auto;
+}
+
 .main-text {
     padding-top: 0.5em;
     grid-area: text;
