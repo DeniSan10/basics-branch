@@ -75,7 +75,7 @@ aside {
 }
 
 aside img {
-    height: 70px;
+    height: 100px;
     width: auto;
 }
 
@@ -160,4 +160,91 @@ footer h4 {
 
 .flag4 {
     padding: 2em;
+}
+
+.gallery-dummy {
+    border: solid;
+    margin: 3em;
+    background: linear-gradient(227deg, #ff0000, rgb(56, 52, 52), black);
+    background-size: 240% 240%;
+    border-radius: 10%;
+    animation: gradient-animation 10s ease infinite;
+}
+
+.gallery-dummy img {
+    padding: 0.5em;
+}
+
+.gallery-dummy {
+    padding: 0.5em;
+}
+
+.project-dummy {
+    padding: 1em;
+    border: solid;
+    margin: 3em;
+    background: linear-gradient(227deg, #ff0000, rgb(56, 52, 52), black);
+    background-size: 240% 240%;
+    border-radius: 10%;
+    animation: gradient-animation 10s ease infinite;
+}
+
+.report-list-dummy {
+    padding: 1em;
+}
+
+.report-list-dummy p {
+    padding: 1em;
+}
+
+.form1 {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+    grid-area: form1;
+    padding-bottom: 2em;
+}
+
+.form2 {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+    grid-area: form2;
+}
+
+form {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding: 0.7em;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    row-gap: 0.5em;
+    width: 20em;
+}
+
+input[type="submit"] {
+    grid-column: 2;
+}
+
+.submit {
+    background: linear-gradient(98deg, #120994, red );
+    background-size: 240% 240%;
+    animation: gradient-animation 10s ease infinite;
+    font-size: 20px;
+    color: white;
+
+}
+
+input {
+    margin: 0.4rem;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+.contact-container {
+    padding-bottom: 1em;
 }

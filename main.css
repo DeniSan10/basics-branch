@@ -129,3 +129,45 @@ nav a:hover {
     height: 30px;
     width: auto;
 }
+
+.form1 {
+    display: flex;
+    justify-content: center;
+    grid-area: form1;
+    padding-bottom: 2em;
+}
+
+.form2 {
+    display: flex;
+    justify-content: center;
+    grid-area: form2;
+}
+
+form {
+    padding: 0.7em;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    row-gap: 0.5em;
+    width: 20em;
+}
+
+input[type="submit"] {
+    grid-column: 2;
+}
+
+.submit {
+    background: linear-gradient(98deg, #120994, red );
+    background-size: 240% 240%;
+    animation: gradient-animation 10s ease infinite;
+    font-size: 20px;
+    color: white;
+
+}
+
+input {
+    margin: 0.4rem;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
