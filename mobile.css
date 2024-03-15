@@ -19,7 +19,6 @@ nav {
     height: 100vh;
     background-color: rgba(32, 28, 28, 0.692);
     backdrop-filter: blur(10px);
-    border: solid white;
 }
 
 nav ul {
@@ -217,15 +216,22 @@ footer h4 {
     grid-area: form2;
 }
 
+.visa-image {
+    height: 70px;
+    width: auto;
+}
+
 form {
+    padding-left: 1em;
+    padding-right: 1em;
     padding-bottom: 1em;
     padding-top: 1em;
-    padding: 0.7em;
+    padding: 0.3em;
     border-style: solid;
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
-    row-gap: 0.5em;
+    row-gap: 0.4em;
     width: 20em;
 }
 
@@ -249,7 +255,12 @@ input {
 }
 
 .contact-container {
-    padding-bottom: 1em;
+    padding-bottom: 3em;
+    padding: 0.2px;
+}
+
+.contact-text {
+    padding: 1em;
 }
 
 #clicked .on {
