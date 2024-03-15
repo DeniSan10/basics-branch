@@ -16,8 +16,8 @@ footer {
 iframe {
     width: 100%;
     height: 300px;
-    overflow: auto;
-    padding-bottom: 1em;
+    text-decoration: none;
+    border: none;
 }
 
 body {
