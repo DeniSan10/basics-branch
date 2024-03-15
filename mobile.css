@@ -311,15 +311,11 @@ input {
 @keyframes slideInNav {
     from {
         opacity: 0;
-        /* Start with opacity 0 */
         transform: translateX(100%);
-        /* Start with navigation bar above the viewport */
     }
 
     to {
         opacity: 1;
-        /* End with opacity 1 */
         transform: translateX(0);
-        /* End with navigation bar sliding down into view */
     }
 }
