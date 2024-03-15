@@ -236,8 +236,8 @@ footer h4 {
     animation: gradient-animation 10s ease infinite;
     padding: 1em;
     border-top: white solid 2px;
-    display: block;
     border-bottom: white solid 2px;
+    display: block;
 }
 
 form {
