@@ -223,7 +223,7 @@ footer h4 {
 
 .logo {
     padding: 3em;
-    background-color: #0f0e0e8a;
+    background-color: #0000008a;
 }
 
 .mini {
@@ -238,6 +238,10 @@ footer h4 {
     border-top: white solid 2px;
     border-bottom: white solid 2px;
     display: block;
+}
+
+aside h3 {
+    padding-top: 2em;
 }
 
 form {
