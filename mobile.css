@@ -221,6 +221,25 @@ footer h4 {
     width: auto;
 }
 
+.logo {
+    padding: 3em;
+    background-color: #0f0e0e8a;
+}
+
+.mini {
+    padding: 1em;
+}
+
+.navdiv ul li a{
+    background: linear-gradient(98deg, #120994, red);
+    background-size: 240% 240%;
+    animation: gradient-animation 10s ease infinite;
+    padding: 1em;
+    border-top: white solid 2px;
+    display: block;
+    border-bottom: white solid 2px;
+}
+
 form {
     padding-left: 1em;
     padding-right: 1em;
