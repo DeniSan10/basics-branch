@@ -308,6 +308,10 @@ input {
 
 }
 
+aside h3 {
+    padding: 1em;
+}
+
 @keyframes slideInNav {
     from {
         opacity: 0;
